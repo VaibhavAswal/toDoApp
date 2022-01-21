@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <!--Meta tags-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>To-Do App</title>
+
+    <!--required css and javascript-->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/mobile.css">
+    <link rel="stylesheet" href="css/laptop.css">
+    <link rel="stylesheet" href="css/tab.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <script src="js/main.js"></script>
+
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div id="time"><h2>12:00 AM<br>Monday, Jan 01</h2></div>
+            <div class="weather">
+                <i class="uil uil-cloud-sun"></i>
+                <p id="temp">16° C<br><span></span>Clear</p>
+            </div>
+        </div>
+        <div class="tasks">
+            <ul class="list" id="list">
+
+
+            </ul>
+            <button type="button" alt="delete all" id="deleteAll" onclick=deleteAll();><i class="uil uil-trash-alt"></i><p>Delete All</p></button>
+        </div>
+        <div class="addTask">
+            <input type="text" placeholder="Click to add task" id="text">
+            <i class="uil uil-message" onclick=addTask();addLocal();></i>
+        </div>
+    </div>
+</body>
+</html>

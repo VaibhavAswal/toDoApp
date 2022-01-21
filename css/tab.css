@@ -1,0 +1,43 @@
+@media only screen and (min-width: 601px) and (max-width: 1023px) {
+    .header{
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+    
+    .weather{
+        width: 100%;
+        margin-left: 10px;
+        border-bottom: 1px solid rgb(255, 255, 255);
+    }
+    
+    .weather p{
+        font-size: 22px;
+        margin-bottom: 2px;
+    }
+
+    .weather span{
+        margin-right: 13px;
+    }
+
+    .weather br{
+        display: none;
+    }
+    
+    .weather i{
+        margin-right: 5px;
+        margin-bottom: 0px;
+    }
+    
+    #time{
+        margin-left: 10px;
+        padding-bottom: 2px;
+        border-bottom: 1px solid rgb(255, 255, 255);
+        
+    }
+    
+    .addTask{
+        right: 1px;
+        width: 66%;
+    }
+
+}
