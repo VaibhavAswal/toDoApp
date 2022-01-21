@@ -1,0 +1,215 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 2px;
+    position: relative;
+}
+
+.header{
+    display: flex;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.weather{
+    display: flex;
+    align-items: flex-end;
+}
+
+.weather p{
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+.weather i{
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+}
+
+#time{
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    
+}
+
+.tasks{
+    overflow-y: scroll;
+    overflow-x: hidden; 
+}
+
+.list{
+    margin-bottom: 8vh;
+}
+
+.list li{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgb(207, 207, 207);
+    padding: 8px;
+}
+
+.list li p{
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.delete{
+    margin-left: auto !important;
+    margin-right: 10px;
+}
+
+.displayNone{
+    display: none;
+}
+
+.list li i{
+    margin-left: 15px;
+    font-size: 22px;
+}
+
+.addTask{
+    position: absolute;
+    bottom: 10px;
+    height: 7vh;
+    margin-right: 2%;
+    margin-left: 2%;
+    background-color: rgb(209, 209, 209);
+    display: flex;
+    align-items: center;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    box-shadow: 0px -6px 18px -4px rgba(0,0,0,0.7);
+    -webkit-box-shadow: 0px -6px 18px -4px rgba(0,0,0,0.7);
+    -moz-box-shadow: 0px -6px 18px -4px rgba(0,0,0,0.7);
+}
+
+.addTask:hover{
+    box-shadow: 0px -6px 18px 2px rgba(0,0,0,0.7);
+    -webkit-box-shadow: 0px -6px 18px 2px rgba(0,0,0,0.7);
+    -moz-box-shadow: 0px -6px 18px 2px rgba(0,0,0,0.7);
+}
+
+.addTask i{
+    font-size: 30px;
+    color: rgb(99, 99, 99);
+    margin-right: 15px;
+    -webkit-border-radius: 360px;
+    -moz-border-radius: 360px;
+    border-radius: 360px;
+}
+
+.addTask input{
+    border: none;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    padding-left: 20px;
+    background-color: rgb(209, 209, 209);
+    width: 100%;
+    height: 6vh;
+    color: rgb(99, 99, 99);
+}
+
+#deleteAll{
+    -webkit-border-radius: 360px;
+    -moz-border-radius: 360px;
+    border-radius: 360px;
+    width: 150px;
+    height: 50px;
+    border: 0px;
+    background-color: rgb(0, 81, 134);
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    position: fixed;
+    bottom: 10vh;
+    right: 3vw;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px -6px 18px -4px rgba(0,0,0,0.7);
+    -webkit-box-shadow: 0px -6px 18px -4px rgba(0,0,0,0.7);
+    -moz-box-shadow: 0px -6px 18px -4px rgba(0,0,0,0.7);
+}
+
+#deleteAll:hover{
+    box-shadow: 0px -6px 18px 2px rgba(0,0,0,0.7);
+    -webkit-box-shadow: 0px -6px 18px 2px rgba(0,0,0,0.7);
+    -moz-box-shadow: 0px -6px 18px 2px rgba(0,0,0,0.7);
+}
+
+.addTask i:hover{
+    box-shadow: 10px 9px 22px -2px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 9px 22px -2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 9px 22px -2px rgba(0,0,0,0.75);
+}
+
+#deleteAll:onclick{
+    box-shadow: 10px 24px 22px -25px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 24px 22px -25px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 24px 22px -25px rgba(0,0,0,0.75);
+}
+
+.active{
+    color: rgb(0, 0, 0);
+}
+
+.inactive{
+    color: rgb(109, 108, 108);
+    text-decoration: line-through;
+}
+
+@media only screen and (min-width: 601px) {
+    .header{
+        height: 99vh;
+        width: 30%;
+        float: left;
+        -webkit-border-bottom-left-radius: 16px;
+        -moz-border-bottom-left-radius: 16px;
+        border-bottom-left-radius: 16px;
+        -webkit-border-top-left-radius: 16px;
+        -moz-border-top-left-radius: 16px;
+        border-top-left-radius: 16px;
+        background-image: url("/images/headerP.jpg");
+    }
+
+    .weather{
+        margin-bottom: 20px;
+    }
+
+    .tasks{
+        height: 99vh;
+    }
+
+    #deleteAll{
+        width: 150px;
+        height: 50px;
+    }
+
+    #deleteAll i{
+        margin-left: 10px;
+    }
+
+    #deleteAll p{
+        margin-left: 3px;
+        font-size: 17px;
+        font-weight: bold;
+    }
+
+}

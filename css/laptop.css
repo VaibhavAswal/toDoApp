@@ -1,0 +1,49 @@
+@media only screen and (min-width: 1024px){
+    .header{
+            align-items: flex-end;
+        }
+        
+        .addTask{
+            right: 10px;
+            width: 66%;
+        }
+        .weather{
+            margin-left: auto;
+            margin-right: 10px;
+        }
+
+        .weather i{
+            margin-right: 5px;
+        }
+
+        .weather p{
+            font-size: 25px;
+        }
+
+        #time{
+            margin-left: 10px;
+            margin-bottom: 20px;
+            
+        }
+    }
+
+@media only screen and (min-width: 1024px) and (max-width: 1439px){
+    .weather i{
+        margin-bottom: 25px;
+    }
+}
+
+@media only screen and (min-width: 1440px){
+
+    .weather span{
+        margin-right: 13px;
+    }
+
+    .weather br{
+        display: none;
+    }
+
+    .weather i{
+        margin-bottom: 0px;
+    };
+}
