@@ -2,7 +2,7 @@
 # To-Do App
 
 Responsive to-do web app with weather and local storage functoinality.
-
+![App Screenshot](https://github.com/VaibhavAswal/toDoApp/blob/main/images/ezgif.gif?raw=true)
 
 
 
