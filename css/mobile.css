@@ -8,7 +8,7 @@
     -webkit-border-top-left-radius: 16px;
     -moz-border-top-left-radius: 16px;
     border-top-left-radius: 16px;
-    background-image: url("/images/header.jpg");
+    background-image: url("../images/header.jpg");
 }
 
 .weather{
