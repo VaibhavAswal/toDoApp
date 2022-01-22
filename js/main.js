@@ -31,96 +31,20 @@ window.onload = function(){
     let desc = data['weather'][0]['main'];
     temp = temp-273.15;
     temp = Math.round(temp*100)/100;
-    console.log(`You call me on the telephone, you feel so far away
-    You tell me to come over, there's some games you want to play
-    I'm walking to your house, nobody's home
-    Just me and you and you and me alone
-    We're just playing hide and seek
-    It's getting hard to breathe under the sheets with you
-    I don't want to play no games
-    I'm tired of always chasing, chasing after you
-    I don't give a fuck about you anyways
-    Whoever said I gave a shit 'bout you?
-    You never share your toys or communicate
-    I guess I'm just a play date to you
-    Wake up in your bedroom and there's nothing left to say
-    When I try to talk you're always playing board games
-    I wish I had monopoly over your mind
-    I wish I didn't care all the time
-    We're just playing hide and seek
-    It's getting hard to breathe under the sheets with you
-    I don't want to play no games
-    I'm tired of always chasing, chasing after you
-    I don't give a fuck about you anyways
-    Whoever said I gave a shit 'bout you?
-    You never share your toys or communicate
-    I guess I'm just a play date to you
-    Ring around the rosy
-    I never know, I never know what you need
-    Ring around the rosy, I want to give you, want to give you
-    What you need
-    I don't give a fuck about you anyways
-    Whoever said I gave a shit 'bout you?
-    You never share your toys or communicate
-    I guess I'm just a play date to you
-    You know I give a fuck about you everyday
-    Guess it's time that I tell you the truth
-    If I share my toys, will you let me stay?
-    Don't want to leave this play date with you
-    Source: LyricFind
-    Songwriters: Jennifer Decilveo / Melanie Martinez
-    Play Date lyrics © BMG Rights Management, Warner Chappell Music, Inc
-    तेरे मेरे होठों पे,
-मीठे मिले गीत मितवा
-आगे बढ़े चले हम
-पिछे पिछे प्रीत मितवा
-तेरे मेरे होठों पे,
-मीठे मिले गीत मितवा
-आगे बढ़े चले हम
-पिछे पिछे प्रीत मितवा
-
-
-पहले पहले प्यार की
-पहली रात याद रहेगी
-फूलो से इस शहर की
-मुलकत याद रहेगी
-काश यही साड़ी उमर,
-यू ही जाए बिट मितवा
-आगे बढ़े चले हम
-पिछे पिछे प्रीत मितवा
-
-
-अखियो में भी बस जा,
-आखिया मैं बैंड कर लू
-अखियो में भी बस जा,
-आखिया मैं बैंड कर लू
-पहले इन आखियो से,
-बटे मैं चांद कर लू
-तेरी सराय ही बातो ने,
-लिया मुझे जीत मितवा
-आगे बढ़े चले हम
-पिछे पिछे प्रीत मितवा
-
-
-छोटे छोटे दिन रात
-छोटे छोटे दिन रात
-लैंबी लांबी बाते है
-जलदी हैं किस बात की,
-बड़ी मुलकते है
-बातो मुलकातो में
-उमर जाए बीट मितवा
-आगे बढ़े चले हम
-पिछे पिछे प्रीत मितवा
-
-
-तेरे मेरे होठों पे,
-मीठे मिले गीत मितवा
-आगे बढ़े चले हम
-पिछे पिछे प्रीत मितवा
-आगे बढ़े चले हम
-पिछे पिछे प्रीत मितवा
-आगे बढ़े चले हम
-पिछे पिछे प्रीत मितवा।`);
+    console.log(`Kehndi hundi sii chl chemistry pdha de
+    Chemistry psnd menu preparation krade
+    Physical se jaddo aage bdhugi
+    P block aauga ta pta laguga
+    Science de rahaan vich tur ke reh gye haan 
+    rishtedaraan de taane leke Hans k seh ge haan
+    Saade nerd hone pe o hasde rhende
+    jado IIT nikluga ta pta lguga
+    Oo kendi hundi si school bunk kara de,
+    bike pasand ni mennu car te ghuma de,
+    odho TC vich joddo apna name likhegi,
+    jb restricte ho jaugi jb pata laguga
+    rate my lyrics follow @that_back.bencher on instagram to rate
+    (girls ko follow back milega)`);
     document.getElementById('temp').innerHTML = temp + '° C<br><span></span>' + desc;
     })
     document.getElementById('list').innerHTML = localStorage.getItem('data');
