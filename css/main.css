@@ -86,8 +86,8 @@ body{
 }
 
 .addTask{
-    position: absolute;
-    bottom: 10px;
+    position: fixed;
+    bottom: 20px;
     height: 7vh;
     margin-right: 2%;
     margin-left: 2%;
