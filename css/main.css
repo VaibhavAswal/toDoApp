@@ -20,7 +20,6 @@ body{
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     padding: 2px;
-    position: relative;
 }
 
 .header{
