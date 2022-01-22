@@ -1,4 +1,4 @@
-@media only screen and (min-width: 601px) and (max-width: 1023px) {
+@media only screen and (min-width: 601px) and (max-width: 1048px) {
     .header{
         flex-direction: column;
         justify-content: flex-end;
