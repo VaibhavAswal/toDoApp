@@ -13,7 +13,7 @@ body{
 }
 
 .container{
-    height: 95vh;
+    height: 99%;
     width: 100%;
     background-color: rgb(255, 255, 255);
     -webkit-box-sizing: border-box;
@@ -142,7 +142,7 @@ body{
     color: rgb(255, 255, 255);
     font-size: 40px;
     position: fixed;
-    bottom: 15vh;
+    bottom: 12vh;
     right: 3vw;
     display: flex;
     align-items: center;
