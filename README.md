@@ -14,6 +14,7 @@ Responsive to-do web app with weather and local storage functoinality.
 - Cross platform/responsive design
 - Can mark each task  as completed or not completed
 - Can delete task individually or all at once
+- Star This repo if you liked it
 
 
 ## Contributing
