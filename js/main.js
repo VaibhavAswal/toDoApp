@@ -1,3 +1,4 @@
+//function to calculate day
 setInterval(time, 1000);
 function time() {
     let curretnTime = new Date();
