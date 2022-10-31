@@ -6,7 +6,9 @@ Responsive to-do web app with weather and local storage functoinality.
 
 
 
-## Features
+
+
+## Features🔥
 
 - Save tasks permanetly on local storage
 - Beautiful ui
